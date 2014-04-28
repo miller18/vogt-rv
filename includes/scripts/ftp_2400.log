@@ -1,0 +1,8 @@
+Verbose mode on.
+Connected to web6.netsourceinc.com.
+220-Welcome to dealerftp.rvusa.com.
+220 Gene6 FTP Server v3.9.0 (Build 2) ready...
+?Invalid command
+local: /home/danvog/vogtrv.com/feed/outbound/vogtMotorizedInventory.xml remote: /home/danvog/vogtrv.com/feed/outbound/vogtMotorizedInventory.xml
+530 Please login with USER and PASS first.
+221 Goodbye.

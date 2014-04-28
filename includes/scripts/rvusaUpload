@@ -1,0 +1,13 @@
+#!/bin/bash
+# usage: this_script  <filename>
+IP_address="dealerftp.rvusa.com"
+username="vogtrv"
+password=J7h$2GU8
+file1="/home/danvog/vogtrv.com/feed/outbound/vogtMotorizedInventory.xml"
+ftp -n -p > ftp_$$.log <<EOF
+ verbose
+ open $IP_address
+ USER $username $password
+ put $file1
+ bye
+EOF

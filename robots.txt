@@ -1,0 +1,12 @@
+User-agent: *
+Crawl-delay: 10
+
+#Directories
+Disallow: /includes/
+Disallow: /includes
+Disallow: /admin/
+Disallow: /admin
+Disallow: /anet_php_sdk/
+Disallow: /anet_php_sdk
+Disallow: /test/
+Disallow: /test
